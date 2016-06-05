@@ -1,0 +1,13 @@
+{
+  "run_list": [
+    /*"recipe[dstat]",*/
+    "recipe[base]",
+    "recipe[python::chainer_sample]",
+    "recipe[chainer]"
+  ],
+  "automatic": {
+    /*TODO ローカルVM(Vagrant)用設定。EC2インスタンスに適用するように変更が必要。*/
+    /*`vagrant ssh-config --host centos7 >> ~/.ssh/config`*/
+    "ipaddress": "centos7"
+  }
+}
