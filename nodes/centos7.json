@@ -2,8 +2,7 @@
   "run_list": [
     /*"recipe[dstat]",*/
     "recipe[base]",
-    "recipe[python::chainer_sample]",
-    "recipe[chainer]"
+    "recipe[python::chainer_sample]"
   ],
   "automatic": {
     /*TODO ローカルVM(Vagrant)用設定。EC2インスタンスに適用するように変更が必要。*/

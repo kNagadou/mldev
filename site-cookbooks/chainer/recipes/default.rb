@@ -6,6 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+include_recipe "python::default"
+
 packages = %w{
   gcc-c++ numpy scipy python-matplotlib ipython
   python-pandas sympy python-nose

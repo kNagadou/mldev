@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe "python::default"
+include_recipe "chainer::default"
 
 python_home = node[:python][:home]
 chainer_git_repo = node[:python][:chainer][:git_repo]
